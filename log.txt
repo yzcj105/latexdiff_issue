@@ -1,0 +1,348 @@
+Unescaped left brace in regex is passed through in regex; marked by <-- HERE in m/\\begin{ <-- HERE ((?:picture|tikzpicture|DIFnomarkup)[\w\d*@]*)}(.*?)\\end{\1}/ at /Library/TeX/texbin/latexdiff line 2354, <DATA> line 31168.
+Unescaped left brace in regex is passed through in regex; marked by <-- HERE in m/\\begin{((?:picture|tikzpicture|DIFnomarkup)[\w\d*@]*)}(.*?)\\end{ <-- HERE \1}/ at /Library/TeX/texbin/latexdiff line 2354, <DATA> line 31168.
+Unescaped left brace in regex is passed through in regex; marked by <-- HERE in m/\\begin{ <-- HERE ((?:aligned|array|[pbvBV]?matrix|smallmatrix|cases|split))}(.*?)\\end{\1}/ at /Library/TeX/texbin/latexdiff line 2359, <DATA> line 31168.
+Unescaped left brace in regex is passed through in regex; marked by <-- HERE in m/\\begin{((?:aligned|array|[pbvBV]?matrix|smallmatrix|cases|split))}(.*?)\\end{ <-- HERE \1}/ at /Library/TeX/texbin/latexdiff line 2359, <DATA> line 31168.
+Unescaped left brace in regex is passed through in regex; marked by <-- HERE in m/\\begin{ <-- HERE ((?:equation[*]?|displaymath|DOLLARDOLLAR)[*]?|(?:eqnarray|align|alignat|gather|multline|flalign)[*]?|SQUAREBRACKET)}(.*?)\\frac(([\s]*%[^\n]*?)*[\r\n|\r|\n])+\{(.*?)\\end{\1}/ at /Library/TeX/texbin/latexdiff line 2258, <DATA> line 31168.
+Unescaped left brace in regex is passed through in regex; marked by <-- HERE in m/\\begin{((?:equation[*]?|displaymath|DOLLARDOLLAR)[*]?|(?:eqnarray|align|alignat|gather|multline|flalign)[*]?|SQUAREBRACKET)}(.*?)\\frac(([\s]*%[^\n]*?)*[\r\n|\r|\n])+\{(.*?)\\end{ <-- HERE \1}/ at /Library/TeX/texbin/latexdiff line 2258, <DATA> line 31168.
+Unescaped left brace in regex is passed through in regex; marked by <-- HERE in m/\\begin{ <-- HERE ((?:equation[*]?|displaymath|DOLLARDOLLAR)[*]?|(?:eqnarray|align|alignat|gather|multline|flalign)[*]?|SQUAREBRACKET)}(.*?)\\end{\1}/ at /Library/TeX/texbin/latexdiff line 2363, <DATA> line 31168.
+Unescaped left brace in regex is passed through in regex; marked by <-- HERE in m/\\begin{((?:equation[*]?|displaymath|DOLLARDOLLAR)[*]?|(?:eqnarray|align|alignat|gather|multline|flalign)[*]?|SQUAREBRACKET)}(.*?)\\end{ <-- HERE \1}/ at /Library/TeX/texbin/latexdiff line 2363, <DATA> line 31168.
+
+WARNING: Inconsistency in length of input string and parsed string:
+     This often indicates faulty or non-standard latex code.
+     In many cases you can ignore this and the following warning messages.
+ Note that character numbers in the following are counted beginning after \begin{document} and are only approximate.
+nd \@ifxundefined [1]{  \@ifx{#1\undefined} } \providecommand 
+                              ^^                              
+Missing characters near word 20 character index: 144-146 Length: 1 Match: |1| (expected match marked above).
+
+ecommand \@ifnum [1]{  \ifnum #1\expandafter \@firstoftwo  \el
+                              ^^                              
+Missing characters near word 33 character index: 197-199 Length: 1 Match: |1| (expected match marked above).
+
+ovidecommand \@ifx [1]{  \ifx #1\expandafter \@firstoftwo  \el
+                              ^^                              
+Missing characters near word 52 character index: 299-301 Length: 1 Match: |1| (expected match marked above).
+
+\providecommand \natexlab [1]{#1} \providecommand \enquote  [1
+                              ^^                              
+Missing characters near word 69 character index: 398-400 Length: 1 Match: |1| (expected match marked above).
+
+rovidecommand \enquote  [1]{``#1''} \providecommand \bibnamefo
+                              ^^                              
+Missing characters near word 79 character index: 434-436 Length: 1 Match: |1| (expected match marked above).
+
+videcommand \bibnamefont  [1]{#1} \providecommand \bibfnamefon
+                              ^^                              
+Missing characters near word 89 character index: 474-476 Length: 1 Match: |1| (expected match marked above).
+
+videcommand \bibfnamefont [1]{#1} \providecommand \citenamefon
+                              ^^                              
+Missing characters near word 98 character index: 512-514 Length: 1 Match: |1| (expected match marked above).
+
+videcommand \citenamefont [1]{#1} \providecommand \href@noop [
+                              ^^                              
+Missing characters near word 107 character index: 550-552 Length: 1 Match: |1| (expected match marked above).
+
+ [1]{#1} \providecommand \href@noop [0]{\@secondoftwo} \providecom
+                              ^^^^^^                              
+Missing characters near word 112 character index: 575-581 Length: 5 Match: |noop | (expected match marked above).
+
+ref [0]{\begingroup \@sanitize@url \@href} \providecommand \@href
+                              ^^^^^                              
+Missing characters near word 130 character index: 648-653 Length: 4 Match: |url | (expected match marked above).
+
+} \providecommand \@href[1]{\@@startlink{#1}\@@href} \providecommand \
+                              ^^^^^^^^^^                              
+Missing characters near word 143 character index: 689-699 Length: 9 Match: |startlink| (expected match marked above).
+
+ommand \@href[1]{\@@startlink{#1}\@@href} \providecommand \@@h
+                              ^^                              
+Missing characters near word 146 character index: 700-702 Length: 1 Match: |1| (expected match marked above).
+
+d \@href[1]{\@@startlink{#1}\@@href} \providecommand \@@href[1]{\
+                              ^^^^^                              
+Missing characters near word 150 character index: 705-710 Length: 4 Match: |href| (expected match marked above).
+
+#1}\@@href} \providecommand \@@href[1]{\endgroup#1\@@endlink} \pr
+                              ^^^^^                              
+Missing characters near word 155 character index: 730-735 Length: 4 Match: |href| (expected match marked above).
+
+decommand \@@href[1]{\endgroup#1\@@endlink} \providecommand \@
+                              ^^                              
+Missing characters near word 162 character index: 748-750 Length: 1 Match: |1| (expected match marked above).
+
+mmand \@@href[1]{\endgroup#1\@@endlink} \providecommand \@sanitize@u
+                              ^^^^^^^^                              
+Missing characters near word 165 character index: 752-760 Length: 7 Match: |endlink| (expected match marked above).
+
+nk} \providecommand \@sanitize@url [0]{\catcode `\\12\catcode `\D
+                              ^^^^^                              
+Missing characters near word 171 character index: 788-793 Length: 4 Match: |url | (expected match marked above).
+
+E 12\relax} \providecommand \@@startlink[1]{} \providecommand \@@endli
+                              ^^^^^^^^^^                              
+Missing characters near word 209 character index: 948-958 Length: 9 Match: |startlink| (expected match marked above).
+
+rtlink[1]{} \providecommand \@@endlink[0]{} \providecommand \url  [0
+                              ^^^^^^^^                              
+Missing characters near word 218 character index: 982-990 Length: 7 Match: |endlink| (expected match marked above).
+
+url  [0]{\begingroup\@sanitize@url \@url } \providecommand \@url 
+                              ^^^^^                              
+Missing characters near word 234 character index: 1043-1048 Length: 4 Match: |url | (expected match marked above).
+
+nd \@url [1]{\endgroup\@href {#1}{\urlprefix }} \providecomman
+                              ^^                              
+Missing characters near word 250 character index: 1099-1101 Length: 1 Match: |1| (expected match marked above).
+
+videcommand \translation [1]{[#1]} \providecommand \BibitemOpe
+                              ^^                              
+Missing characters near word 324 character index: 1411-1413 Length: 1 Match: |1| (expected match marked above).
+
+bitemShut  [1]{\csname bibitem#1\endcsname} \let\auto@bib@inne
+                              ^^                              
+Missing characters near word 369 character index: 1632-1634 Length: 1 Match: |1| (expected match marked above).
+
+bibitem#1\endcsname} \let\auto@bib@innerbib\@empty \bibitem [{\c
+                              ^^^^                              
+Missing characters near word 375 character index: 1655-1659 Length: 3 Match: |bib| (expected match marked above).
+
+tem#1\endcsname} \let\auto@bib@innerbib\@empty \bibitem [{\citenamefo
+                              ^^^^^^^^^                              
+Missing characters near word 377 character index: 1659-1668 Length: 8 Match: |innerbib| (expected match marked above).
+
+\bibnamefont {Cirac}},\ }\href@noop {} {\bibfield  {journal} {\bib
+                              ^^^^^^                              
+Missing characters near word 492 character index: 2112-2118 Length: 5 Match: |noop | (expected match marked above).
+
+WARNING: Inconsistency in length of input string and parsed string:
+     This often indicates faulty or non-standard latex code.
+     In many cases you can ignore this and the following warning messages.
+ Note that character numbers in the following are counted beginning after \begin{document} and are only approximate.
+nd \@ifxundefined [1]{  \@ifx{#1\undefined} } \providecommand 
+                              ^^                              
+Missing characters near word 24 character index: 172-174 Length: 1 Match: |1| (expected match marked above).
+
+ecommand \@ifnum [1]{  \ifnum #1\expandafter \@firstoftwo  \el
+                              ^^                              
+Missing characters near word 37 character index: 225-227 Length: 1 Match: |1| (expected match marked above).
+
+ovidecommand \@ifx [1]{  \ifx #1\expandafter \@firstoftwo  \el
+                              ^^                              
+Missing characters near word 56 character index: 327-329 Length: 1 Match: |1| (expected match marked above).
+
+\providecommand \natexlab [1]{#1} \providecommand \enquote  [1
+                              ^^                              
+Missing characters near word 73 character index: 426-428 Length: 1 Match: |1| (expected match marked above).
+
+rovidecommand \enquote  [1]{``#1''} \providecommand \bibnamefo
+                              ^^                              
+Missing characters near word 83 character index: 462-464 Length: 1 Match: |1| (expected match marked above).
+
+videcommand \bibnamefont  [1]{#1} \providecommand \bibfnamefon
+                              ^^                              
+Missing characters near word 93 character index: 502-504 Length: 1 Match: |1| (expected match marked above).
+
+videcommand \bibfnamefont [1]{#1} \providecommand \citenamefon
+                              ^^                              
+Missing characters near word 102 character index: 540-542 Length: 1 Match: |1| (expected match marked above).
+
+videcommand \citenamefont [1]{#1} \providecommand \href@noop [
+                              ^^                              
+Missing characters near word 111 character index: 578-580 Length: 1 Match: |1| (expected match marked above).
+
+ [1]{#1} \providecommand \href@noop [0]{\@secondoftwo} \providecom
+                              ^^^^^^                              
+Missing characters near word 116 character index: 603-609 Length: 5 Match: |noop | (expected match marked above).
+
+ref [0]{\begingroup \@sanitize@url \@href} \providecommand \@href
+                              ^^^^^                              
+Missing characters near word 134 character index: 676-681 Length: 4 Match: |url | (expected match marked above).
+
+} \providecommand \@href[1]{\@@startlink{#1}\@@href} \providecommand \
+                              ^^^^^^^^^^                              
+Missing characters near word 147 character index: 717-727 Length: 9 Match: |startlink| (expected match marked above).
+
+ommand \@href[1]{\@@startlink{#1}\@@href} \providecommand \@@h
+                              ^^                              
+Missing characters near word 150 character index: 728-730 Length: 1 Match: |1| (expected match marked above).
+
+d \@href[1]{\@@startlink{#1}\@@href} \providecommand \@@href[1]{\
+                              ^^^^^                              
+Missing characters near word 154 character index: 733-738 Length: 4 Match: |href| (expected match marked above).
+
+#1}\@@href} \providecommand \@@href[1]{\endgroup#1\@@endlink} \pr
+                              ^^^^^                              
+Missing characters near word 159 character index: 758-763 Length: 4 Match: |href| (expected match marked above).
+
+decommand \@@href[1]{\endgroup#1\@@endlink} \providecommand \@
+                              ^^                              
+Missing characters near word 166 character index: 776-778 Length: 1 Match: |1| (expected match marked above).
+
+mmand \@@href[1]{\endgroup#1\@@endlink} \providecommand \@sanitize@u
+                              ^^^^^^^^                              
+Missing characters near word 169 character index: 780-788 Length: 7 Match: |endlink| (expected match marked above).
+
+nk} \providecommand \@sanitize@url [0]{\catcode `\\12\catcode `\D
+                              ^^^^^                              
+Missing characters near word 175 character index: 816-821 Length: 4 Match: |url | (expected match marked above).
+
+E 12\relax} \providecommand \@@startlink[1]{} \providecommand \@@endli
+                              ^^^^^^^^^^                              
+Missing characters near word 213 character index: 976-986 Length: 9 Match: |startlink| (expected match marked above).
+
+rtlink[1]{} \providecommand \@@endlink[0]{} \providecommand \url  [0
+                              ^^^^^^^^                              
+Missing characters near word 222 character index: 1010-1018 Length: 7 Match: |endlink| (expected match marked above).
+
+url  [0]{\begingroup\@sanitize@url \@url } \providecommand \@url 
+                              ^^^^^                              
+Missing characters near word 238 character index: 1071-1076 Length: 4 Match: |url | (expected match marked above).
+
+nd \@url [1]{\endgroup\@href {#1}{\urlprefix }} \providecomman
+                              ^^                              
+Missing characters near word 254 character index: 1127-1129 Length: 1 Match: |1| (expected match marked above).
+
+videcommand \translation [1]{[#1]} \providecommand \BibitemOpe
+                              ^^                              
+Missing characters near word 328 character index: 1439-1441 Length: 1 Match: |1| (expected match marked above).
+
+bitemShut  [1]{\csname bibitem#1\endcsname} \let\auto@bib@inne
+                              ^^                              
+Missing characters near word 373 character index: 1660-1662 Length: 1 Match: |1| (expected match marked above).
+
+bibitem#1\endcsname} \let\auto@bib@innerbib\@empty \bibitem [{\c
+                              ^^^^                              
+Missing characters near word 379 character index: 1683-1687 Length: 3 Match: |bib| (expected match marked above).
+
+tem#1\endcsname} \let\auto@bib@innerbib\@empty \bibitem [{\citenamefo
+                              ^^^^^^^^^                              
+Missing characters near word 381 character index: 1687-1696 Length: 8 Match: |innerbib| (expected match marked above).
+
+WARNING: Inconsistency in length of input string and parsed string:
+     This often indicates faulty or non-standard latex code.
+     In many cases you can ignore this and the following warning messages.
+ Note that character numbers in the following are counted beginning after \begin{document} and are only approximate.
+@noop 
+                              ^^^^^^                              
+Missing characters near word 0 character index: 0-6 Length: 5 Match: |noop | (expected match marked above).
+\documentclass[prl]{revtex4-1}
+%DIF LATEXDIFF DIFFERENCE FILE
+%DIF DEL old-fl.tex   Mon Mar 30 20:11:56 2020
+%DIF ADD new-fl.tex   Mon Mar 30 20:12:34 2020
+
+
+\usepackage[colorlinks=false]{hyperref}
+%DIF PREAMBLE EXTENSION ADDED BY LATEXDIFF
+%DIF UNDERLINE PREAMBLE %DIF PREAMBLE
+\RequirePackage[normalem]{ulem} %DIF PREAMBLE
+\RequirePackage{color}\definecolor{RED}{rgb}{1,0,0}\definecolor{BLUE}{rgb}{0,0,1} %DIF PREAMBLE
+\providecommand{\DIFaddtex}[1]{{\protect\color{blue}\uwave{#1}}} %DIF PREAMBLE
+\providecommand{\DIFdeltex}[1]{{\protect\color{red}\sout{#1}}}                      %DIF PREAMBLE
+%DIF SAFE PREAMBLE %DIF PREAMBLE
+\providecommand{\DIFaddbegin}{} %DIF PREAMBLE
+\providecommand{\DIFaddend}{} %DIF PREAMBLE
+\providecommand{\DIFdelbegin}{} %DIF PREAMBLE
+\providecommand{\DIFdelend}{} %DIF PREAMBLE
+%DIF FLOATSAFE PREAMBLE %DIF PREAMBLE
+\providecommand{\DIFaddFL}[1]{\DIFadd{#1}} %DIF PREAMBLE
+\providecommand{\DIFdelFL}[1]{\DIFdel{#1}} %DIF PREAMBLE
+\providecommand{\DIFaddbeginFL}{} %DIF PREAMBLE
+\providecommand{\DIFaddendFL}{} %DIF PREAMBLE
+\providecommand{\DIFdelbeginFL}{} %DIF PREAMBLE
+\providecommand{\DIFdelendFL}{} %DIF PREAMBLE
+%DIF HYPERREF PREAMBLE %DIF PREAMBLE
+\providecommand{\DIFadd}[1]{\texorpdfstring{\DIFaddtex{#1}}{#1}} %DIF PREAMBLE
+\providecommand{\DIFdel}[1]{\texorpdfstring{\DIFdeltex{#1}}{}} %DIF PREAMBLE
+%DIF END PREAMBLE EXTENSION ADDED BY LATEXDIFF
+
+\begin{document}
+hello world
+
+Reference \DIFdelbegin \DIFdel{C \mbox{%DIFAUXCMD
+\cite{Verstraete:2004d}}%DIFAUXCMD
+,
+}\DIFdelend \DIFaddbegin \DIFadd{A \mbox{%DIFAUXCMD
+\cite{Czarnik:2015}}%DIFAUXCMD
+.
+Reference B \mbox{%DIFAUXCMD
+\cite{Czarnik:2012}}%DIFAUXCMD
+.
+}\DIFaddend 
+
+\DIFdelbegin %DIFDELCMD < \begin{thebibliography}{1}
+%DIFDELCMD < %%%
+\DIFdelend \DIFaddbegin \begin{thebibliography}{2}
+\DIFaddend \makeatletter
+\providecommand \@ifxundefined [1]{
+ \@ifx{#1\undefined}
+}
+\providecommand \@ifnum [1]{
+ \ifnum #1\expandafter \@firstoftwo
+ \else \expandafter \@secondoftwo
+ \fi
+}
+\providecommand \@ifx [1]{
+ \ifx #1\expandafter \@firstoftwo
+ \else \expandafter \@secondoftwo
+ \fi
+}
+\providecommand \natexlab [1]{#1}
+\providecommand \enquote  [1]{``#1''}
+\providecommand \bibnamefont  [1]{#1}
+\providecommand \bibfnamefont [1]{#1}
+\providecommand \citenamefont [1]{#1}
+\providecommand \href@noop [0]{\@secondoftwo}
+\providecommand \href [0]{\begingroup \@sanitize@url \@href}
+\providecommand \@href[1]{\@@startlink{#1}\@@href}
+\providecommand \@@href[1]{\endgroup#1\@@endlink}
+\providecommand \@sanitize@url [0]{\catcode `\\12\catcode `\$12\catcode
+  `\&12\catcode `\#12\catcode `\^12\catcode `\_12\catcode `\%12\relax}
+\providecommand \@@startlink[1]{}
+\providecommand \@@endlink[0]{}
+\providecommand \url  [0]{\begingroup\@sanitize@url \@url }
+\providecommand \@url [1]{\endgroup\@href {#1}{\urlprefix }}
+\providecommand \urlprefix  [0]{URL }
+\providecommand \Eprint [0]{\href }
+\providecommand \doibase [0]{http://dx.doi.org/}
+\providecommand \selectlanguage [0]{\@gobble}
+\providecommand \bibinfo  [0]{\@secondoftwo}
+\providecommand \bibfield  [0]{\@secondoftwo}
+\providecommand \translation [1]{[#1]}
+\providecommand \BibitemOpen [0]{}
+\providecommand \bibitemStop [0]{}
+\providecommand \bibitemNoStop [0]{.\EOS\space}
+\providecommand \EOS [0]{\spacefactor3000\relax}
+\providecommand \BibitemShut  [1]{\csname bibitem#1\endcsname}
+\let\auto@bib@innerbib\@empty
+\bibitem [{\citenamefont {\DIFdelbegin \DIFdel{Verstraete}\DIFdelend \DIFaddbegin \DIFadd{Czarnik}\DIFaddend }\ \DIFaddbegin \DIFadd{and\ \mbox{%DIFAUXCMD
+\citenamefont
+  }%DIFAUXCMD
+}{\DIFadd{Dziarmaga}}\DIFadd{(2015)}}]{\DIFadd{Czarnik:2015}}
+  \BibitemOpen
+  \bibfield  {\DIFadd{author}} {\bibinfo {\DIFadd{author}} {\bibfnamefont {\DIFadd{Piotr}}\DIFadd{\ }\bibnamefont
+  {\DIFadd{Czarnik}}}\DIFadd{\ and\ }\bibinfo {\DIFadd{author}} {\bibfnamefont {\DIFadd{Jacek}}\DIFadd{\ }\bibnamefont
+  {\DIFadd{Dziarmaga}}}\DIFadd{,\ }}\bibfield  {\DIFadd{title}} {\enquote {\bibinfo {\DIFadd{title}} {\DIFadd{Variational
+  approach to projected entangled pair states at finite temperature}}\DIFadd{,}}\DIFadd{\ }}\href
+  {\doibase \DIFadd{10.1103/PhysRevB.92.035152}} {\bibfield  {\DIFadd{journal}} {\bibinfo
+  {\DIFadd{journal}} {\DIFadd{Phys. Rev. B}}\DIFadd{\ }}\textbf {\bibinfo {\DIFadd{volume}} {\DIFadd{92}}}\DIFadd{,\ }\bibinfo
+  {\DIFadd{pages}} {\DIFadd{035152}} \DIFadd{(}\bibinfo {\DIFadd{year}} {\DIFadd{2015}}\DIFadd{)}}\BibitemShut {\DIFadd{NoStop}}
+\bibitem [{\DIFadd{\mbox{%DIFAUXCMD
+\citenamefont }%DIFAUXCMD
+}{\DIFadd{Czarnik}}\DIFadd{\ }\DIFaddend \emph {et~al.}(\DIFdelbegin \DIFdel{2004}\DIFdelend \DIFaddbegin \DIFadd{2012}\DIFaddend )\citenamefont
+  {\DIFdelbegin \DIFdel{Verstraete}\DIFdelend \DIFaddbegin \DIFadd{Czarnik}\DIFaddend }, \citenamefont {\DIFdelbegin \DIFdel{Garc\'ia-Ripoll}\DIFdelend \DIFaddbegin \DIFadd{Cincio}\DIFaddend },\ and\ \citenamefont
+  {\DIFdelbegin \DIFdel{Cirac}\DIFdelend \DIFaddbegin \DIFadd{Dziarmaga}\DIFaddend }}]{\DIFdelbegin \DIFdel{Verstraete:2004d}\DIFdelend \DIFaddbegin \DIFadd{Czarnik:2012}\DIFaddend }
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {\DIFdelbegin \DIFdel{F.}\DIFdelend \DIFaddbegin \DIFadd{Piotr}\DIFaddend }\DIFdelbegin \DIFdel{~}\DIFdelend \DIFaddbegin \DIFadd{\ }\DIFaddend \bibnamefont
+  {\DIFdelbegin \DIFdel{Verstraete}\DIFdelend \DIFaddbegin \DIFadd{Czarnik}\DIFaddend }}, \bibinfo {author} {\bibfnamefont {\DIFdelbegin \DIFdel{J.~J.}\DIFdelend \DIFaddbegin \DIFadd{Lukasz}\DIFaddend }\ \bibnamefont
+  {\DIFdelbegin \DIFdel{Garc\'ia-Ripoll}\DIFdelend \DIFaddbegin \DIFadd{Cincio}\DIFaddend }}, \ and\ \bibinfo {author} {\bibfnamefont {\DIFdelbegin \DIFdel{J.~I.}\DIFdelend \DIFaddbegin \DIFadd{Jacek}\DIFaddend }\ \bibnamefont
+  {\DIFdelbegin \DIFdel{Cirac}\DIFdelend \DIFaddbegin \DIFadd{Dziarmaga}\DIFaddend }},\ }\DIFaddbegin \bibfield  {\DIFadd{title}} {\enquote {\bibinfo {\DIFadd{title}} {\DIFadd{Projected
+  entangled pair states at finite temperature: Imaginary time evolution with
+  ancillas}}\DIFadd{,}}\DIFadd{\ }}\DIFaddend \href \DIFdelbegin \DIFdel{@noop }\DIFdelend {\DIFaddbegin \doibase \DIFadd{10.1103/PhysRevB.86.245101}\DIFaddend } {\bibfield
+  {journal} {\bibinfo  {journal} {Phys. Rev. \DIFdelbegin \DIFdel{Lett.}\DIFdelend \DIFaddbegin \DIFadd{B}\DIFaddend }\ }\textbf {\bibinfo {volume}
+  {\DIFdelbegin \DIFdel{93}\DIFdelend \DIFaddbegin \DIFadd{86}\DIFaddend }},\ \bibinfo {pages} {\DIFdelbegin \DIFdel{207204}\DIFdelend \DIFaddbegin \DIFadd{245101}\DIFaddend } (\bibinfo {year} {\DIFdelbegin \DIFdel{2004}\DIFdelend \DIFaddbegin \DIFadd{2012}\DIFaddend })}\BibitemShut
+  {NoStop}
+\end{thebibliography}
+
+
+\end{document}
